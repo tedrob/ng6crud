@@ -1,0 +1,8 @@
+{
+  "name": "Start on Heroku: Node.js",
+  "description": "A anggular 6, Node.js app using Express 4",
+  "repository": "https://git.heroku.com/ag6-crud.git",
+  "logo": "",
+  "keywords": ["node", "express", "heroku"],
+  "image": ""
+}

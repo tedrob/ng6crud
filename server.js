@@ -2,7 +2,7 @@ const express = require('express'),
       app     = express(),
       path    = require('path'),
       cors    = require('cors'),
-      port    = process.env.Port || 8080,
+      Port    = process.env.Port || 8080,
       bodyParser  = require('body-parser'),
       pg      = require('pg');
 
@@ -11,7 +11,7 @@ express((req, res, next) => {
   res.header( 'Access-Control-Allow-Headers',
               'Origin, X-Requested-With, Content-type,'+
               'Accept');
-  next();
+  next;
 });
 const tt = 'dist/ng6crud/index.html/'
 express(() => {
@@ -32,8 +32,8 @@ express(() => {
     err.status = 404;
     next(err);
   })
-  .listen(port, () => {
-    console.log(`listening on port ${port} test ${tt}`);
+  .listen(Port, () => {
+    console.log(`listening on port ${Port} test ${tt}`);
   })
 
-module.exports = express;
+// module.exports = express;

@@ -9,6 +9,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es2015",
+    "module": "commonjs",
     "typeRoots": [
       "node_modules/@types"
     ],

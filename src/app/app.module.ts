@@ -9,6 +9,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
 import { HttpClientModule } from '@angular/common/http';
 import { AdunitService } from './adunit.service';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 const routes: Routes = [
   {
@@ -36,6 +37,7 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     SlimLoadingBarModule,
     HttpClientModule,
+    NgbModule.forRoot()
   ],
   providers: [AdunitService],
   bootstrap: [AppComponent]

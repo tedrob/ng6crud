@@ -43,8 +43,8 @@
     "pg": "^7.4.3",
     "popper": "^1.0.1",
     "popper.js": "^1.14.3",
-    "rxjs": "^6.0.0",
-    "rxjs-compat": "^6.2.1",
+    "rxjs": "6.0.0",
+    "rxjs-compat": "6.2.2",
     "sequelize": "^5.3.5",
     "typescript": "~2.7.2",
     "zone.js": "^0.8.26"
